@@ -1,1 +1,1 @@
-file:src/test/resources/features/loginSM.feature:42
+file:src/test/resources/features/closeBrowser.feature:9

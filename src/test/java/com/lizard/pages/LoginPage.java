@@ -16,6 +16,11 @@ public class LoginPage {
     public static final String SIGN_IN = "sign in";
     @FindBy (xpath = "//b[.='Sign in']")
     public WebElement signIn;
+////a[@href='#']/b/span[1]
+public static final String SIGN_IN_TEXT = "sign in text";
+    @FindBy (xpath = "//a[@href='#']/b/span[1]")
+    public WebElement signInText;
+
 
 public static final String TOPBAR = "topbar";
     @FindBy (xpath = "//span[@class='oe_topbar_name']")
@@ -52,6 +57,7 @@ public static final String SUBMIT_BUTTON = "submit button";
             case ALERT_INPUT: return alertInput;
             case TOPBAR: return topBar;
             case ALERT: return alert;
+            case SIGN_IN_TEXT: return signInText;
             default: throw new NoSuchElementException("wrong element input");
 
 

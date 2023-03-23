@@ -13,7 +13,7 @@ import org.junit.runner.RunWith;
         glue = "com/lizard/stepDefenitions",
         features = "src/test/resources/features",
         dryRun = false,
-        tags = "@login"
+        tags = "@wip"
 )
 
 
