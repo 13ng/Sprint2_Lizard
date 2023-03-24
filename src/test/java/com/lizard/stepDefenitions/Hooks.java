@@ -25,7 +25,7 @@ public class Hooks {
         wait.until(ExpectedConditions.visibilityOf(page.logoutButtonMain));
         page.logoutButtonMain.click();
     }
-@Before (value = "@wip")
+@Before (value = "@logout")
         public void setupForTestingLogout(){
     Driver.getDriver().get(ConfigurationReader.getProperty("url"));
     LoginPage page = new LoginPage();

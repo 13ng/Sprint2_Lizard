@@ -1,3 +1,4 @@
+@logout
 Feature: Default
 
 	#{color:#172b4d}AC1- User can log out and ends up in login page.{color}
